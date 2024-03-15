@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/p2-blogs.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/000webhost-tag-remove.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <title> Tag Cloud | Satyam</title>
+    <!--SCRIPT FOR GOTO TOP-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 300) {
+                    $('.arrow').css({
+                        "opacity": "1", "pointer-events": "auto"
+                    });
+                } else {
+                    $('.arrow').css({
+                        "opacity": "0", "pointer-events": "none"
+                    });
+                }
+            });
+        });
+
+    </script>
+</head>
+
+<body onload="checkCookie()">
+
+    <div id="navbar">
+        <nav class="navigation max-width-1 m-auto">
+
+            <div class="nav-left">
+
+                <!--   <i class="fas fa-bars"></i>  -->
+
+                <span class="logo"><a href="https://satyamregmi.com.np">Satyam Regmi</a></span>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="../About">ABOUT</a></li>
+                    <li><a href="../Contact.php">CONTACT</a></li>
+                    <li><a href="/Blogs/" class="active">BLOGS</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <form action="/#search.html" method="get">
+                    <input type="search" name="search" id="form-input" placeholder="Search" required>
+                    <button id="btn-search">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="mobl-container">
+        <div class="phone">
+            <div class="mobl-content">
+
+                <nav role="mobl-navigation">
+                    <a href="https://satyamregmi.com.np" style="color: white; position: fixed; font-size: 20px; left: 33vw; top: 25px;        background:
+                    linear-gradient(
+                      to right,
+                      #1E1E23,
+                      #1E1E23
+                    );">SATYAM REGMI</a>
+                    <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+
+                        <ul id="mobl-menu">
+                            <li><a href="/">HOME</a></li>
+                            <li><a href="../About">ABOUT</a></li>
+                            <li><a href="../Contact.php">CONTACT</a></li>
+                            <li><a href="/Blogs/">BLOGS</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--TOP-->
+    <div class="arrow">
+        <a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
+    </div>
+
+
+    <div class="content">
+        <div class="top-image-container-0"></div>
+
+
+        <div class="top-image-container">
+
+            <ul class="breadcrumb">
+                <li><a href="/">Home</a></li>
+                <li><a href="/Blogs/">Blogs</a></li>
+                <li><a href="#">Tag Cloud</a></li>
+
+            </ul>
+
+
+            <ul class="post">
+                |<li id="post"><a href="../Blogs/5G-speed" style="color:Black;">Post 8
+                    </a></li>|
+                <li id="post"><a href="Virtual-Reality" style="color:Black;">Post 9 </a>
+                </li>|
+                <li id="post"> <a href="#3" style="color:rgb(77, 179, 237);">Post 10
+                    </a></li>|
+                <li id="post"> <a href="java-script" style="color:Black;">Post 11
+                    </a></li>|
+                <li id="post"> <a href="chat-GPT" style="color:Black;">Post 12
+                    </a></li>|
+                <li id="post"> <a href="c++" style="color:Black;">Post 13
+                    </a></li>|
+            </ul>
+
+
+            <div class="pagination">
+                <a href="../Blogs/5G-speed">8</a>
+                <a href="../Blogs/Virtual-Reality">9</a>
+                <a class="active" href="#">10</a>
+                <a href="#">11</a>
+                <a href="#">12</a>
+                <a href="#">13</a>
+
+            </div>
+
+
+        </div>
+
+        <div class="row-reco">
+            <div id="col-reco-1">
+
+
+                <div class="row-blog">
+                    <div id="col-blog">
+                        <span class="blog-img-title">
+                            <h3>Tag Cloud</h3><br><br>
+                        </span>
+                        <ul class="breadcrumb-2">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/Blogs/">Blogs</a></li>
+                            <li><a href="#">Tag Cloud</a></li>
+
+                        </ul>
+                        <img src="../images/Example-of-a-tag-cloud.png" alt="Tag Cloud">
+                        <div class="blog-container">
+                            <h3>Tag Cloud</h3><br>
+
+                            <p class="blog-2">
+
+                            A tag cloud, also commonly referred to as a word cloud, is a visual representation of
+                                content tags used on websites. It typically features words used in a chosen set of
+                                content that are resized according to their frequency or importance. Tag clouds provide
+                                a useful way to visually represent data, as the words are often arranged in alphabetical
+                                order and are color-coded to distinguish different topics or themes. The larger the font
+                                size, the more frequently or important the word is. <br> <br>
+                           
+                                Tag clouds are commonly used on websites and social media networks to show trending
+                                topics. They can also be used in other visualizations, such as the hashtag frequency map
+                                of Twitter. An example of this would be a map of the United States with each state
+                                colored based on the frequency of the hashtag used within its borders. Tag clouds can
+                                also be used for sentiment analysis, with the size of the text representing the
+                                magnitude of the sentiment associated with it. <br> <br>
+                            
+                                A tag cloud example would be a website devoted to music. The tag cloud itself would show
+                                the most popular artists and songs on the website, with the larger font sizes indicating
+                                more popular topics. Users can quickly find what they are looking for by looking at the
+                                size of each tag in the cloud. Additionally, tag clouds can help users navigate a
+                                website, quickly finding the relevant content they’re looking for.
+
+
+                            <br>
+                            <a href="/authors/@satyam"><span id="author-of-blog">-Satyam
+                                    Regmi</span>
+                            </a><br>
+                            <span class="date-of-blog">10 Jan, 2023</span>
+                            </p>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="col-reco-2">
+                <h4 class="recommended-post-home-1">
+                    <span class="black-box">Follow Us</span>
+                </h4> <br>
+                <div class="social">
+                    <a href="https://facebook.com/regmi.satyam" class="fa fa-facebook"></a>
+                    <a href="https://instagram.com/regmisatyam" class="fa fa-twitter"></a>
+                    <a href="https://twitter.com/Satyam6Regmi" class="fa fa-instagram"></a>
+                    <a href="https://linkedin.com/in/satyam-regmi/" class="fa fa-linkedin"></a>
+                     <a href="https://youtube.com/channel/UC3PNPmUPHjkm1iA0A_cGP8A?sub_confirmation=1" class="fa fa-youtube"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="footer-content">
+            <h2>FOLLOW US ON SOCIAL MEDIA</h2>
+
+            <ul>
+                <a href="https://facebook.com/regmi.satyam" target="_blank">
+                    <li> <i class="fab fa-facebook-f"></i></li>
+                </a>
+                <a href="https://twitter.com/satyam6regmi" target="_blank">
+                    <li><i class="fab fa-twitter"></i></li>
+                </a>
+                <a href="https://instagram.com/regmisatyam" target="_blank">
+                    <li><i class="fab fa-instagram"></i></li>
+                </a>
+                <a href="https://linkedin.com/in/satyam-regmi" target="_blank">
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                </a>
+                <a href="https://youtube.com/channel/UC3PNPmUPHjkm1iA0A_cGP8A?sub_confirmation=1" target="_blank">
+                    <li><i class="fab fa-youtube"></i></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="last-footer">
+        <div id="text-footer">
+            <div id="satyam">
+                Copyright © 2021-2023 <a href="https://satyamregmi.com.np">Satyam Regmi</a> All Rights Reserved
+            </div>
+
+
+            <a href="https://satyamregmi.com.np">Home</a>
+            <a href="https://satyamregmi.com.np/About">About</a>
+            <a href="https://satyamregmi.com.np/terms-conditions">Terms and Condition</a>
+            <a href="https://satyamregmi.com.np/privacy-policy">Privacy Policy</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <!--add all information -->Hello I'm
+
+            <h3 id="foot-h3">Satyam Regmi</h3>
+            <p>I'm Webpage Designer and Developer.</p>
+            <ul class="socials">
+                <li><a href="https://facebook.com/regmi.satyam"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/Satyam6Regmi"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/regmisatyam"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://youtube.com/channel/UC3PNPmUPHjkm1iA0A_cGP8A?sub_confirmation=1"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://linkedin.com/in/satyam-regmi/"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+
+
+        </div>
+        <div class="footer-bottom">
+            &copy; 2021-2023 <a href="https://satyamregmi.com.np">Satyam Regmi</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

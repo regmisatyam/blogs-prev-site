@@ -1,0 +1,41 @@
+10: tag-cloud
+11: Java-script (rupesh)
+12: Chat-GPT (rupesh)
+13: c++ (rupesh)
+14: artificial intelligence (rupesh)
+15: cyber security (satyam)
+16: cyborg (satyam)
+17: Light speed space limits (sulav)
+18: Black Hole  (sulav)
+19: global warming (sulav)
+
+
+
+
+
+ <ul>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+            </ul>
+
+
+ <ul>
+                <a href="https://facebook.com/regmi.satyam" target="_blank">
+                    <li> <i class="fab fa-facebook-f"></i></li>
+                </a>
+                <a href="https://twitter.com/satyam6regmi" target="_blank">
+                    <li><i class="fab fa-twitter"></i></li>
+                </a>
+                <a href="https://instagram.com/regmisatyam" target="_blank">
+                    <li><i class="fab fa-instagram"></i></li>
+                </a>
+                <a href="https://linkedin.com/in/satyam-regmi" target="_blank">
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                </a>
+                <a href="https://youtube.com/channel/UC3PNPmUPHjkm1iA0A_cGP8A?sub_confirmation=1" target="_blank">
+                    <li><i class="fab fa-youtube"></i></li>
+                </a>
+            </ul>
